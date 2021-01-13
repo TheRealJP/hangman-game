@@ -1,7 +1,6 @@
 # Hangman Game
 # By Juan Ortiz
 
-import sys
 import random
 
 print('Welcome to the HANGMAN man')
