@@ -7,7 +7,7 @@ print('Welcome to the HANGMAN man')
 print('Starting a new game...')
 
 # RANDOMLY PICK WORD FROM FILE
-words = open('hangman_words.txt').readlines()
+words = open('hangman_words.txt').read().splitlines()
 word = random.choice(words)
 guesses = ''
 turns = 10
